@@ -2,12 +2,12 @@ CFLAGS=-Wall
 CFLAGS += -g
 CFLAGS += -Wextra
 CFLAGS += -Wpedantic
-CFLAGS += -Werror
+# CFLAGS += -Werror
 
 TARGET=game
 
 all:
-	cc $(CFLAGS) main.c -o $(TARGET)
+	cc $(CFLAGS) *.c -o $(TARGET)
 
 clean:
 	rm -f $(TARGET)
