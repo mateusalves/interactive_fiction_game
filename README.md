@@ -1,2 +1,3 @@
-# interactive_fiction_game
-An text adventure game. 
+# Interactive Fiction Game
+An text adventure game originally made by [Helderman](https://github.com/helderman). The purpose of this project is to get a glimpse into the universe of game development in C language. 
+
