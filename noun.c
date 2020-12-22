@@ -28,7 +28,7 @@ OBJECT *getVisible(const char *intention, const char *noun)
     {
         printf("I don't understand %s.\n", intention);
     }
-    else if (!(obj == player) ||
+    else if (!(obj == player ||
                obj == player->location ||
                obj->location == player ||
                obj->location == player->location ||
