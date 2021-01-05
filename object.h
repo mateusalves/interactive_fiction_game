@@ -16,4 +16,4 @@ extern OBJECT objs[];
 #define intoCave    (objs + 6)
 #define exitCave    (objs + 7)
 
-#define endOfObjs   (objs + 6)
+#define endOfObjs   (objs + 8)
